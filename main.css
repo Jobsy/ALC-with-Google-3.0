@@ -1,0 +1,45 @@
+.main-panel {
+    margin-top: 200px;
+    width: auto;
+}
+
+div.row {
+    padding: 10px;
+}
+
+.header {
+    width:auto;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+
+div .panel {
+    border-color: green; 
+    background-color: rgb(210, 255, 210);
+}
+
+
+div h1 {
+    font-size:40px;
+}
+
+span {
+      font-size: 15px;
+      font-weight: bold;
+}
+
+.input {
+      width: 200px;
+
+}
+  
+@media (max-width: 500px) {
+    h1 {
+      font-size: 36px; 
+      
+    }
+    .panel, .header{
+        width: 300px
+    }
+}
